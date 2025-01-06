@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-01-01T13:02:46.458Z</updated>
+  <updated>2025-01-06T07:44:26.679Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>markdown基础用法</title>
+    <link href="http://example.com/posts/561d6569.html"/>
+    <id>http://example.com/posts/561d6569.html</id>
+    <published>2025-01-06T07:36:10.000Z</published>
+    <updated>2025-01-06T07:44:26.679Z</updated>
+    
+    <content type="html"><![CDATA[<p>如何写基础的markdown:<br> 1.如何写标题<br> 2.如何写引用<br> 3.如何写列表</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;如何写基础的markdown:&lt;br&gt; 1.如何写标题&lt;br&gt; 2.如何写引用&lt;br&gt; 3.如何写列表&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
