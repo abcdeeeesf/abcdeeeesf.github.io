@@ -8,7 +8,7 @@
       <link href="/posts/561d6569.html"/>
       <url>/posts/561d6569.html</url>
       
-        <content type="html"><![CDATA[<h3 id="如何写基础的markdown"><a href="#如何写基础的markdown" class="headerlink" title="如何写基础的markdown:"></a>如何写基础的markdown:</h3><p> 1.如何写标题<br>   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">#+标题  为几级标题</span></span><br></pre></td></tr></table></figure><br> 2.如何写引用<br>   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">  &gt;文章内容</span><br><span class="line">  &#x27;&#x27;&#x27;</span><br><span class="line">3.如何写列表</span><br><span class="line">   <span class="code">```c++</span></span><br><span class="line"><span class="code">   #include&lt;iostream&gt;</span></span><br><span class="line"><span class="code">   int main()&#123;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">   &#125;</span></span><br></pre></td></tr></table></figure></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="如何写基础的markdown"><a href="#如何写基础的markdown" class="headerlink" title="如何写基础的markdown:"></a>如何写基础的markdown:</h3><p> 1.如何写标题<br>   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">#+标题  为几级标题</span></span><br><span class="line">空四格</span><br></pre></td></tr></table></figure><br> 2.如何写引用<br>   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;文章内容</span><br></pre></td></tr></table></figure><br> 3.如何写列表<br>    <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
       
       
       
@@ -56,6 +56,17 @@
     
     <entry>
       <title></title>
+      <link href="/css/runtime.min.css"/>
+      <url>/css/runtime.min.css</url>
+      
+        <content type="html"><![CDATA[div#runtime{width:180px;margin:auto;color:#fff;padding-inline:5px;border-radius:10px;background-color:rgba(0,0,0,.7)}#workboard{font-size:12px}[data-theme=dark] div#runtime{color:#28b4c8;box-shadow:0 0 5px rgba(28,69,218,.71);    animation:flashlight 1s linear infinite alternate}#ghbdages .github-badge img{height:20px}    @-moz-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}    @-webkit-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}    @-o-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}    @keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/css/custom.css"/>
       <url>/css/custom.css</url>
       
@@ -71,17 +82,6 @@
       <url>/css/modify.css</url>
       
         <content type="html"><![CDATA[#page-header {  background: transparent !important;}#page-header.post-bg,#page-header.not-home-page {  height: 280px !important;}#page-header #post-info {  bottom: 40px !important;  text-align: center;}#page-header #page-site-info {  top: 140px !important;}@media screen and (max-width: 768px) {  #page-header.not-home-page {    height: 200px !important;  }  #page-header #post-info {    bottom: 10px !important;  }  #page-header #page-site-info {    top: 100px !important;  }}.top-img {  height: 250px;  margin: -50px -40px 50px;  border-top-left-radius: inherit;  border-top-right-radius: inherit;  background-position: center center;  background-size: cover;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -o-transition: all 0.3s;  -ms-transition: all 0.3s;  transition: all 0.3s;}@media screen and (max-width: 768px) {  .top-img {    height: 230px;    margin: -36px -14px 36px;  }}[data-theme='dark'] .top-img {  filter: brightness(0.8);}#footer:before {  background-color: rgba(255,255,255,0.5);}[data-theme='dark'] #footer:before {  background-color: rgba(0,0,0,0.5);}#footer-wrap,#footer-wrap a {  color: #111;  -webkit-transition: unset;  -moz-transition: unset;  -o-transition: unset;  -ms-transition: unset;  transition: unset;}[data-theme='dark'] #footer-wrap,[data-theme='dark'] #footer-wrap a {  color: var(--light-grey);}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/runtime.min.css"/>
-      <url>/css/runtime.min.css</url>
-      
-        <content type="html"><![CDATA[div#runtime{width:180px;margin:auto;color:#fff;padding-inline:5px;border-radius:10px;background-color:rgba(0,0,0,.7)}#workboard{font-size:12px}[data-theme=dark] div#runtime{color:#28b4c8;box-shadow:0 0 5px rgba(28,69,218,.71);    animation:flashlight 1s linear infinite alternate}#ghbdages .github-badge img{height:20px}    @-moz-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}    @-webkit-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}    @-o-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}    @keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}]]></content>
       
     </entry>
     
