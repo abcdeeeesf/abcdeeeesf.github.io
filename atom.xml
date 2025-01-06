@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-01-06T07:44:26.679Z</updated>
+  <updated>2025-01-06T07:48:50.931Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/posts/561d6569.html"/>
     <id>http://example.com/posts/561d6569.html</id>
     <published>2025-01-06T07:36:10.000Z</published>
-    <updated>2025-01-06T07:44:26.679Z</updated>
+    <updated>2025-01-06T07:48:50.931Z</updated>
     
     <content type="html"><![CDATA[<p>如何写基础的markdown:<br> 1.如何写标题<br> 2.如何写引用<br> 3.如何写列表</p>]]></content>
     
