@@ -37,26 +37,6 @@
   </entry>
   
   <entry>
-    <title>markdown基础用法</title>
-    <link href="http://example.com/posts/561d6569.html"/>
-    <id>http://example.com/posts/561d6569.html</id>
-    <published>2025-01-06T07:36:10.000Z</published>
-    <updated>2025-01-07T07:57:56.072Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="如何写基础的markdown"><a href="#如何写基础的markdown" class="headerlink" title="如何写基础的markdown:"></a>如何写基础的markdown:</h3><p> 1.如何写标题<br>   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">#+标题  为几级标题</span></span><br><span class="line">空四格</span><br></pre></td></tr></table></figure><br> 2.如何写引用<br>   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;文章内容</span><br></pre></td></tr></table></figure><br> 3.如何写列表</p><pre><code>1. 无序列表   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">+</span> 列表</span><br><span class="line"><span class="bullet">-</span> 列表</span><br><span class="line"><span class="bullet">*</span> 列表  </span><br></pre></td></tr></table></figure>2. 有序列表   使用数字和一个英文句点表示有序列表。   注意：英文句点后面一定要有一个空格，起到缩进的作用。   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">number.列表</span><br></pre></td></tr></table></figure>3. 混合列表   使用其他Markdown语法混合使用,这里不展开。5. TodoList   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> [] 列表 //[]后面又空格</span><br></pre></td></tr></table></figure>6. 注意事项:   在使用列表时,只要是数字后面加上英文的点,就会无意间产生列表,比如2017.12.30    这时候想表达的是日期，有些软件把它被误认为是列表。解决方式：在每个点前面加上\就可以了。   如下:   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">2024.05.04 is Birthday //No</span><br><span class="line">2024\.05\.04. is Birthday // YES</span><br></pre></td></tr></table></figure></code></pre><p> 4.表格</p><pre><code> 1. 表格列  <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| 列 1 | 列 2 | 列 3 |</span><br><span class="line">| ---- | ---- | ---- |</span><br><span class="line">| 数据 1 | 数据 2 | 数据 3 |</span><br><span class="line">| 数据 4 | 数据 5 | 数据 6 |</span><br></pre></td></tr></table></figure> 2. 表格对齐    有些Markdown编辑器支持表格中的单元格对齐方式。    <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| 左对齐 | 居中对齐 | 右对齐 |</span><br><span class="line">| :---- | :-----: | ----: |</span><br><span class="line">| 文本  |   文本  |  文本 |</span><br><span class="line">| 文本  |   文本  |  文本 |</span><br></pre></td></tr></table></figure></code></pre><p> 5.链接<br>     <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">链接名称</span>](<span class="link">链接地址&quot;声明&quot;</span>)</span><br><span class="line">例如:</span><br><span class="line">[<span class="string">百度</span>](<span class="link">baidu.com&quot;这是百度&quot;</span>)</span><br></pre></td></tr></table></figure><br>     <a href="https://www.baidu.com/">百度</a><br> 6.图片<br>     <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">图片名称</span>](<span class="link">图片地址</span>)</span><br><span class="line">例如:</span><br><span class="line">![<span class="string">图片</span>](<span class="link">img.png</span>)</span><br></pre></td></tr></table></figure><br>     <img src="../img/1.jpg" alt="图片"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;如何写基础的markdown&quot;&gt;&lt;a href=&quot;#如何写基础的markdown&quot; class=&quot;headerlink&quot; title=&quot;如何写基础的markdown:&quot;&gt;&lt;/a&gt;如何写基础的markdown:&lt;/h3&gt;&lt;p&gt; 1.如何写标题&lt;br&gt;   &lt;figu</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>test</title>
     <link href="http://example.com/posts/d87f7e0c.html"/>
     <id>http://example.com/posts/d87f7e0c.html</id>
@@ -78,6 +58,26 @@
 &lt;li&gt;无序子列表项 1&lt;ol&gt;
 &lt;li&gt;混合子子列表项 1&lt;/li&gt;
 &lt;li&gt;混合子子列表项 2&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>markdown基础用法</title>
+    <link href="http://example.com/posts/561d6569.html"/>
+    <id>http://example.com/posts/561d6569.html</id>
+    <published>2025-01-06T07:36:10.000Z</published>
+    <updated>2025-01-07T07:57:56.072Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="如何写基础的markdown"><a href="#如何写基础的markdown" class="headerlink" title="如何写基础的markdown:"></a>如何写基础的markdown:</h3><p> 1.如何写标题<br>   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">#+标题  为几级标题</span></span><br><span class="line">空四格</span><br></pre></td></tr></table></figure><br> 2.如何写引用<br>   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;文章内容</span><br></pre></td></tr></table></figure><br> 3.如何写列表</p><pre><code>1. 无序列表   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">+</span> 列表</span><br><span class="line"><span class="bullet">-</span> 列表</span><br><span class="line"><span class="bullet">*</span> 列表  </span><br></pre></td></tr></table></figure>2. 有序列表   使用数字和一个英文句点表示有序列表。   注意：英文句点后面一定要有一个空格，起到缩进的作用。   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">number.列表</span><br></pre></td></tr></table></figure>3. 混合列表   使用其他Markdown语法混合使用,这里不展开。5. TodoList   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> [] 列表 //[]后面又空格</span><br></pre></td></tr></table></figure>6. 注意事项:   在使用列表时,只要是数字后面加上英文的点,就会无意间产生列表,比如2017.12.30    这时候想表达的是日期，有些软件把它被误认为是列表。解决方式：在每个点前面加上\就可以了。   如下:   <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">2024.05.04 is Birthday //No</span><br><span class="line">2024\.05\.04. is Birthday // YES</span><br></pre></td></tr></table></figure></code></pre><p> 4.表格</p><pre><code> 1. 表格列  <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| 列 1 | 列 2 | 列 3 |</span><br><span class="line">| ---- | ---- | ---- |</span><br><span class="line">| 数据 1 | 数据 2 | 数据 3 |</span><br><span class="line">| 数据 4 | 数据 5 | 数据 6 |</span><br></pre></td></tr></table></figure> 2. 表格对齐    有些Markdown编辑器支持表格中的单元格对齐方式。    <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| 左对齐 | 居中对齐 | 右对齐 |</span><br><span class="line">| :---- | :-----: | ----: |</span><br><span class="line">| 文本  |   文本  |  文本 |</span><br><span class="line">| 文本  |   文本  |  文本 |</span><br></pre></td></tr></table></figure></code></pre><p> 5.链接<br>     <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">链接名称</span>](<span class="link">链接地址&quot;声明&quot;</span>)</span><br><span class="line">例如:</span><br><span class="line">[<span class="string">百度</span>](<span class="link">baidu.com&quot;这是百度&quot;</span>)</span><br></pre></td></tr></table></figure><br>     <a href="https://www.baidu.com/">百度</a><br> 6.图片<br>     <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">图片名称</span>](<span class="link">图片地址</span>)</span><br><span class="line">例如:</span><br><span class="line">![<span class="string">图片</span>](<span class="link">img.png</span>)</span><br></pre></td></tr></table></figure><br>     <img src="../img/1.jpg" alt="图片"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;如何写基础的markdown&quot;&gt;&lt;a href=&quot;#如何写基础的markdown&quot; class=&quot;headerlink&quot; title=&quot;如何写基础的markdown:&quot;&gt;&lt;/a&gt;如何写基础的markdown:&lt;/h3&gt;&lt;p&gt; 1.如何写标题&lt;br&gt;   &lt;figu</summary>
       
     
     
